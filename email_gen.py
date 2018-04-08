@@ -9,6 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 # Find Email 
 # match = emailRegex.findall(soup.text)
 
+# Doesn't use in script. Just a simple regex command to strip emails from text
 def searchForEmails(string):
 
     emailRegex = re.compile(r'[\w\.-]+@[\w\.-]+') 
