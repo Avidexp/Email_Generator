@@ -20,7 +20,6 @@ def searchForEmails(string):
 
 def GetEmail():
     browser = webdriver.Firefox()
-    # browser.get("https://www.fakemailgenerator.com")
 
     browser.get('https://www.fakemailgenerator.com')
     browser.wait = WebDriverWait(browser, .5)
