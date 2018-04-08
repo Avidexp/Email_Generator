@@ -36,7 +36,6 @@ count = int(input("How many emails would you like?:   "))
 for i in range(count):
     GetEmail()
 
-# browser.close()
 
 
 
